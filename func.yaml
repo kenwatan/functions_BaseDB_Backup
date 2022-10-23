@@ -1,0 +1,9 @@
+schema_version: 20180708
+name: sampletimestamp
+version: 0.0.18
+runtime: java
+build_image: fnproject/fn-java-fdk-build:jdk17-1.0.151
+run_image: fnproject/fn-java-fdk:jre17-1.0.151
+cmd: com.example.fn.HelloFunction::handleRequest
+memory: 128
+timeout: 180
